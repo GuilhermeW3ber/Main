@@ -1,14 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Montserrat", sans-serif ;
     scroll-behavior: smooth;
 }
 
 .navbar {
     background: black;
-    height: 80px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,12 +27,13 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 50px;
 }
 
 #navbarLogo {
+    font-family: "Montserrat", sans-serif ;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
@@ -83,7 +87,7 @@
     justify-content: center;
     text-align: center;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 5px 15px;
     height: 100%;
     width: 100%;
     border: none;
@@ -305,7 +309,7 @@
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    padding: 20px 60px;
+    padding: 8px 40px;
     border: none;
     border-radius: 4px;
     color: #FFFFFF;
@@ -410,7 +414,7 @@
         margin-top: 2rem;
     }
     .mainButton {
-        padding: 12px 36px;
+        padding: 10px 36px;
         margin: 2.5rem 0;
     }
 }
@@ -426,7 +430,7 @@
 }
 
 .services h1 {
-    background-color: #ff8177;
+    background-color: #ed1a52;
     background-image: linear-gradient(to right #ff0844 0%, #ffb199 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -497,5 +501,117 @@
 @media screen and (max-width:768px) {
     .servicesWrapper {
         grid-template-columns: 1fr;
+    }
+}
+
+.footerContainer {
+    background-color: #131313;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerLogo {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footerLinks {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerLinksWrapper {
+    display: flex;
+}
+
+.footerLinkItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+.footerlinkItems h2 {
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.footerlinkItems a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: 0.3 ease-out;
+}
+
+.footerLinkItems a:hover {
+    color: #FFFFFF;
+    transition: 0.3 ease-out;
+}
+
+.socialIconLink {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.socialMedia {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.socialMediaWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.website__rights {
+    color: #fff;
+}
+
+@media screen and (max-width: 820px) {
+    .footer__links {
+        padding-top: 2rem;
+    }
+    #footer__logo {
+        margin-bottom: 2rem;
+    }
+    .website__rights {
+        margin-bottom: 2rem;
+    }
+    .footer__link--wrapper {
+        flex-direction: column;
+    }
+    .social__media--wrap {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__link--items {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
     }
 }
