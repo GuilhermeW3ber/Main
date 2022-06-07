@@ -185,7 +185,7 @@
 @media screen and (max-width:960px) {
 
     .m{
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .navbarContainer {
@@ -454,6 +454,10 @@
 }
 
 @media screen and (max-width: 1100px) {
+    .m{
+        font-size: 30px;
+    }
+    
     .mainContainer {
         display: grid;
         grid-template-columns: 1fr;
