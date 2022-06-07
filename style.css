@@ -550,7 +550,7 @@
     flex-direction: column;
     justify-content: center;
     color: #FFFFFF;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #1d1d1d 0%, #303030 100%);
     transition: 0.3s ease-in;
 }
 
