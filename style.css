@@ -99,6 +99,11 @@
     color: #FFFFFF;
     transition: all 0.3 all ease;
 }
+
+.m{
+    font-size: 30px;
+}
+
 .loader span {
     color: #faebd7;
     text-shadow: 0 0 0 #faebd7;
@@ -178,6 +183,11 @@
 
 
 @media screen and (max-width:960px) {
+    
+    .m{
+        font-size: 30px;
+    }
+
     .navbarContainer {
         display: flex;
         justify-content: space-between;
