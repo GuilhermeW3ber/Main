@@ -183,7 +183,7 @@
 
 
 @media screen and (max-width:960px) {
-    
+
     .m{
         font-size: 30px;
     }
@@ -331,6 +331,9 @@
     }
     .heroDescription {
         font-size: 40px;
+    }
+    .m{
+        font-size: 20px;
     }
 }
 
